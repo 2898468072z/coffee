@@ -1,0 +1,147 @@
+
+.img{
+	width:970px;
+	height: 80px;
+	/*border: 1px solid gold;*/
+	margin:0 auto;
+	margin-top: 40px;
+	margin-right: 122px;
+}
+.img img{
+	width: 60px;
+	height: 77px;
+	
+}
+.select{
+	width:100%;
+	height: 2600px;
+	/*border: 1px solid gold;*/
+	margin-top: 10px;
+	background-color: #F9F9F9;
+}
+.dropdown{
+	width:970px;
+	/*border: 1px solid gold;*/
+	margin:0 auto;
+	margin-right: 122px;
+}
+#dropdownMenu1{
+	width: 100px;
+}
+#dropdownMenu2{
+	width: 130px;
+}
+#dropdownMenu3{
+	width: 160px;
+}
+.coffee1{
+	width:970px;
+	height: 115px;
+	/*border: #01A1E4 1px solid;*/
+	margin:0 auto;
+	margin-top: 50px;
+	margin-left: 255px;
+}
+.coffee1 h2{
+	font-weight: bold;
+	color:#555555;
+}
+.coffee1 h3{
+	font-weight: normal;
+	color:#555555;
+}
+.left1{
+	width:315px;
+	height: 860px;
+	/*border: #AC2925 1px solid;*/
+	margin-left: 255px;
+	position: relative;
+}
+
+.teacher{
+	font-size: 26px;
+	display: inline-block;
+	color:#555555;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.left1 a:hover{
+	color:#0089BC;
+	text-decoration: none;
+}
+.local {
+	font-weight: bold;
+	font-size: 12px;
+	color:#555555;
+}
+.right1{
+	width:100px;
+	height: 860px;
+/*	border: #AC2925 1px solid;*/
+	float: right;
+	margin-right: 285px;
+	margin-top:-860px;
+}
+.commit{
+	width:100px;
+	height: 40px;
+	margin-top:35px;
+	background-color: #0A83DA;
+	font-size: 16px;
+	color:white;
+}
+.two{
+	margin-top: 10px;
+}
+.cof h2{
+	width:970px;
+	height: 80px;
+	/*border: #01A1E4 1px solid;*/
+	
+}
+.three{
+	position: relative;
+	top:410px;
+	left:255px;
+}
+.three-title{
+	font-size: 26px;
+	font-weight: bold;
+	color:#555555;
+}
+.three a:hover{
+	color:#0089BC;
+	text-decoration: none;
+}
+.three-text{
+	color:#555555;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 15px;
+}
+.three-commit{
+	margin-left: 965px;
+	margin-top:322px;
+}
+.foot{
+	width:100%;
+	height:250px;
+	background-color: #EDEEF1;
+}
+.foot-text{
+	width: 200px;
+	height: 80px;
+	display: inline-block;
+	/*margin: 0 auto;*/
+	text-align: center;
+	line-height:250px;
+	margin-left: 40%;
+	font-size: 20px;
+	text-decoration: underline;
+	color: #79C0F0;
+}
+.foot-text a:hover{
+	color: #79C0F0;
+}
+

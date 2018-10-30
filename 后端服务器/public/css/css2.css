@@ -1,0 +1,113 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.san {
+	background-image: url("../images/咖啡书信.jpg");
+	background-size: 100% 600px;
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.dingwei1{
+	position: absolute;
+	top: 80px;
+	left: 300px;
+	width: 500px;
+}
+.ni {
+	
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.ni_you{
+	font-size: 36px;
+	font-weight: bold;
+}
+.wenzi{
+	font-size: 24px;
+}
+.anliu{
+	width: 200PX;
+	height: 50PX;
+	background-color: #01a1dd !important;
+	}
+.kuang{
+	background-color: #f3f3f3;
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+.dingwei2{
+
+position: absolute;
+top: 60px;
+left: 500px;
+	width: 750px;
+	
+}
+.wenzi2{
+	font-size: 28px;
+	text-align: center;
+}
+.wenzi3{
+	font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+}
+.paokafei{
+	width:1200px;
+	margin: 0 auto;
+}
+.daxiao{
+	width: 320px !important;
+	margin-left: 30px;
+}
+.tu3{
+	margin-top:60px ;
+	width: 312px;
+	height: 156px;
+}
+.wenzi4{
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.wenzi5{
+
+	font-size: 18px;
+	text-align: center;
+}
+.anliu2{
+	margin-top:40px ;
+	margin-bottom:60px !important ;
+	margin-left:400px ;
+	width: 300PX;
+	height: 50PX;
+	background-color: #01a1dd !important;
+	}
+	.fengexian {
+	width: 100%;
+	height: 1px;
+	background-color: #464547;
+}
+a:link {
+	text-decoration:none !important;
+
+}
+a:visited {
+
+text-decoration:none !important;
+} 
+a:hover {
+
+	text-decoration:none !important;
+	}
+a:active {
+
+	text-decoration:none !important;
+	} 

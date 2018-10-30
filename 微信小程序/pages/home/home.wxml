@@ -1,0 +1,83 @@
+<!--pages/home/home.wxml-->
+
+<!-- home_top star -->
+<view class='home_top'>
+
+<swiper class='swiper1' indicator-dots='true' indicator-active-color='#ccc' autoplay='true' circular='true' interval='2000'>
+<swiper-item>
+<image  class="home_top_image" src='https://blue-bottle-cms.global.ssl.fastly.net/hbhhv9rz9/image/upload/v1494548557/gz81wsjvyfnqjprsdefw.jpg'></image>
+<text class='home_top_text1'>Blue咖啡</text>
+<text class='home_top_text2'>订阅你最喜欢的咖啡</text>
+</swiper-item>
+<swiper-item>
+<image  class="home_top_image" src='https://bluebottlecoffee.com/assets/match/personalized-770b64c0a483ad585dcaa5bf0efd859691bea87301ff6461b011b9bfa6e6d08e.jpg'></image>
+<text class='home_top_text1'>Blue咖啡</text>
+<text class='home_top_text2'>订阅你最喜欢的咖啡</text>
+</swiper-item>
+<swiper-item>
+<image  class="home_top_image" src='https://bluebottlecoffee.com/assets/match/bg-coffee-match-hero-ac082ebe1749898dfc402423470c09b93af850d231d9ab8d3ebe3bfa884dadcd.jpg'></image>
+<text class='home_top_text1'>Blue咖啡</text>
+<text class='home_top_text2'>订阅你最喜欢的咖啡</text>
+</swiper-item>
+</swiper>
+</view>
+<view class='clear'></view>
+<!-- home_top end -->
+
+<!-- Music star -->
+<view class='Music_view'>
+<view><text>听说，风总是向南方。。。</text></view>
+<view><text>听说，尘埃飘进了流泪人的眼里。</text></view>
+<view><text>听说，孤单的人才喜欢成群结队。</text></view>
+<view><text>城市太喧嚣？</text></view>
+<view><text>咖啡和音乐一直很安静，</text></view>
+<view><text>坐下来听一首歌再继续出发吧。。。</text></view>
+<image wx:if="{{music==false}}" class='Music' src='../../icon/Play.png' bindtap='onstar'></image>
+<image wx:else="{{music==true}}" class='Music' src='../../icon/Stop.png' bindtap='onstop'></image>
+</view>
+<view class='clear'></view>
+<!-- Music end -->
+
+
+<!-- logo star -->
+<view class='plane'>
+<image class='plane_image' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540394568252&di=30794a72d6d058b9e1fdb8767e034044&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F69%2F49%2F81%2F58faca8637b66.png'></image>
+<view><text>聆听Blue的声音</text></view>
+<view><text>所有の故事都与你有关</text></view>
+<view class='plane_view'></view>
+</view>
+<view class='clear'></view>
+<!-- logo end -->
+
+<!-- home_mid star -->
+<view wx:for="{{mydata1.top}}">
+<view class='home_mid'>
+<image class='home_mid_image' src='{{item.src1}}'></image>
+<view class='home_mid_flex'>
+<text class='home_mid_text'>{{item.text}}</text>
+<view><text  class='home_mid_text1'>{{item.text1}}</text></view>
+</view>
+</view>
+</view>
+<view class='clear'></view>
+<!-- home_mid end -->
+
+
+<!-- bottom1 star -->
+<view class='bottom1'>
+<view><text class='bottom1_text'>CHARLIE HABEGGER，绿色咖啡采购员</text></view>
+<view><text class='bottom1_text1'>"美好的咖啡可以有很多种形式。但我们追求的是极致品味。我们衷心的希望每一杯咖啡都是美味且独特的，有时候寻找的挑剔与独特的眼光让我们另辟新生活"</text></view>
+<view><text class='bottom1_text2'>找到你的咖啡比赛</text></view>
+</view>
+<view class='clear'></view>
+<!-- bottom1 end -->
+
+<!-- end_view star -->
+<view class='end_view'>
+<image class='end_image' src='https://bluebottlecoffee.com/assets/bg-img-coffee-match-a2ad601937a84dab2945b160c900f7fd7b907e497af22176cb6dfca772b0e740.jpg'></image>
+<view><text  class='end_text'>咖啡比赛</text></view>
+<view><text  class='end_text1'>找到符合您口味的咖啡。</text></view>
+<view><text  class='end_text2' bindtap='bindtap1'>参加测验</text></view>
+</view>
+<view class='end_end'></view>
+<!-- end_view end -->

@@ -1,0 +1,44 @@
+<!--pages/recruit/hello/message/message.wxml-->
+<!-- logo star -->
+<view class='plane'>
+<image class='plane_image' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540394568252&di=30794a72d6d058b9e1fdb8767e034044&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F69%2F49%2F81%2F58faca8637b66.png'></image>
+<view><text>聆听Blue的声音</text></view>
+<view><text>所有の故事都与你有关</text></view>
+<view class='plane_view'></view>
+</view>
+<view class='clear'></view>
+<!-- logo end -->
+
+<!-- middle star -->
+<image class='middle_image' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540477614616&di=dab81fba680346d396075bd053608cd9&imgtype=0&src=http%3A%2F%2Fg-search3.alicdn.com%2Fbao%2Fuploaded%2Fg-search4.alicdn.com%2Fbao%2Fuploaded%2Fi3%2F77801948%2FTB2E8JyqFXXXXawXpXXXXXXXXXX_%2521%252177801948.jpg_400x400.jpg'>
+</image>
+<view class='clear'></view>
+
+<view><text class='left_view0'>招聘信息</text></view>
+<view class='left_view'>
+<view><text class='left_view1'>咖啡新学员</text>
+<text class='left_view2' bindtap='bindtap1' >点击申请</text></view>
+<view><text class='left_view1'>咖啡收营员</text>
+<text class='left_view2' bindtap='bindtap1'>点击申请</text></view>
+<view><text class='left_view1'>咖啡研磨师</text>
+<text class='left_view2' bindtap='bindtap1'>点击申请</text></view>
+<view><text class='left_view1'>咖啡品质师</text>
+<text class='left_view2' bindtap='bindtap1'>点击申请</text></view>
+<view><text class='left_view1'>见习咖啡师</text>
+<text class='left_view2' bindtap='bindtap1'>点击申请</text></view>
+<view><text class='left_view1'>星级咖啡师</text>
+<text class='left_view2' bindtap='bindtap1'>点击申请</text></view>
+<view><text class='left_view1'>全职咖啡师</text>
+<text class='left_view2' bindtap='bindtap1'>点击申请</text></view>
+</view>
+
+<view class='clear'></view>
+
+<!-- end star -->
+<view class='{{one}}'>
+<view class='end_view'>
+<image  class='end_image' src='https://blue-bottle-cms.global.ssl.fastly.net/hbhhv9rz9/image/upload/v1494548557/gz81wsjvyfnqjprsdefw.jpg'></image>
+<text class='end_text'>你已经申请成功，请耐心静候消息</text>
+<view><text class='end_end' bindtap='bindtap2'>点击关闭</text></view>
+</view>
+</view>

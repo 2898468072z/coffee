@@ -1,0 +1,52 @@
+<!--pages/shop/shop.wxml-->
+
+<!-- logo star -->
+<view class='plane'>
+<image class='plane_image' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540394568252&di=30794a72d6d058b9e1fdb8767e034044&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F69%2F49%2F81%2F58faca8637b66.png'></image>
+<view><text>聆听Blue的声音</text></view>
+<view><text>所有の故事都与你有关</text></view>
+<view class='plane_view'></view>
+</view>
+<view class='clear'></view>
+<!-- logo end -->
+
+<!-- top_view star -->
+<view class='top_view'>
+<view><text class='blue'>抱歉!</text></view>
+<view><text class='top_text'>国外的许多人都需要新鲜的烘焙咖啡。我们正在努力将<text class='blue'>Blue 咖啡</text>带到世界各处。目前，我们仅向全球数量有限的国家/地区提供Blue 咖啡 <text class='blue'>订阅服务</text>，包括澳大利亚，加拿大，德国，法国，意大利，日本，荷兰，新西兰，瑞士，英国和美国。免费试用和会员店订单的运送仅适用于我们在美国的含咖啡因的朋友。敬请关注我们的全球发布！</text></view>
+<image src='https://bluebottlecoffee.com/assets/the-world-60183c59d0788f6d8e8ee28187f59cb84fc6918ed50f2fa1908ae444672a803e.png'></image>
+</view>
+<!-- top_view end -->
+
+<!-- view1 star -->
+<view>
+
+<view class='view1'>
+<text class='strong1'>想知道咖啡更多消息？</text>
+<view class='stext'><text>从我们的咖啡专家处获取酿造技巧和建议。问
+<text class='blue'>blue咖啡</text>您可以留言：+1（510）653-3394。</text></view>
+</view>
+
+<view class='view1'>
+<text class='strong1'>错误的国家地址？</text>
+<view class='stext'><text class='blue'>点击此处</text><text>更新您的国家/地区</text></view>
+</view>
+
+<view class='view1'>
+<text class='strong1'>想给我们发电子邮件？</text>
+<view class='stext'><text>我们是电子邮件成瘾者，所以请发送电子邮件至</text>
+<view><text class='blue'>team@bluebottlecoffee.com，</text><text>告诉我们。</text></view>
+</view>
+</view>
+
+<view class='view1'>
+<text class='strong1'>漂亮的笔迹？</text>
+<view class='stext'><text>我们喜欢收到信件，明信片和复古邮票：</text>
+<view><text>Blue Bottle Coffee Inc. 300 Webster St.Oakland，CA 94607</text></view>
+</view>
+</view>
+
+</view>
+
+<view class='end_end'></view>
+<!-- view1 end -->

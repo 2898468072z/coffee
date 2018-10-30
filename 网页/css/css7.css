@@ -1,0 +1,72 @@
+.denglu{
+	width: 540px;
+	margin: auto;
+}
+.sign{
+	width: 530px;
+	margin: auto;
+}
+.zi{
+	font-size: 24px;
+	text-align: center;
+	display: block;
+	margin-top: 60px;
+
+}
+.zi2{
+	font-size: 20px;
+	text-align: center;
+
+}
+
+
+.fengexian {
+	width: 100%;
+	height: 1px;
+	background-color: #464547;
+	margin-top: 50px;
+}
+.kongjian{
+	width: 540px;
+	height: 54px;
+	text-align: center;
+	background-color: #01a1dd !important;
+}
+.shuru{
+	width: 540px !important;
+	height: 48px !important;
+}
+.kuang{
+	margin-top:40px ;
+		width: 540px;
+}
+.zi3{
+	font-size: 16px;
+	text-align: center;
+}
+.zi4{
+	font-size: 16px;
+	text-align: center;
+}
+.fengexian2 {
+	width: 100%;
+	height: 1px;
+	background-color: #464547;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.tu{
+	width: 540px;
+
+	
+}
+.tu1{
+	display: block;
+	width: 235px;
+	height: 40px;
+	margin: auto ;
+}
+.zi5{
+	font-size: 14px;
+	text-align: center;
+}

@@ -1,0 +1,51 @@
+/* pages/shop/shop.wxss */
+
+/* 全局样式 */
+text {
+  font-family:serif;
+}
+
+/* plane start */
+.plane {
+  width: 744rpx;
+  text-align: center;
+  border-top: 4rpx solid #ccc;
+  border-bottom: 4rpx solid #ccc;
+  margin-top: 15rpx;
+}
+.plane_image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+}
+.plane_view {
+  margin-top: 10rpx;
+}
+/* plane end */
+
+/* top_view star */
+.top_view {
+  margin-top:30rpx;
+}
+.top_text {
+  font-size: 35rpx;
+}
+/* top_view end */
+
+/* view1 star */
+.view1 {
+  margin-top:20rpx;
+}
+.strong1 {
+  font-weight: bold;
+}
+.stext {
+  font-size: 33rpx;
+}
+.blue {
+  color: #01a1dd;
+}
+.end_end {
+padding-top: 50rpx;
+}
+/* view1 end */

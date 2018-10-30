@@ -1,0 +1,111 @@
+/* pages/study/study.wxss */
+/* 全局样式 */
+text {
+  font-family:serif;
+}
+.clear {
+  clear: both;
+}
+/* plane start */
+.plane {
+  width: 744rpx;
+  text-align: center;
+  border-top: 4rpx solid #ccc;
+  border-bottom: 4rpx solid #ccc;
+  margin-top: 8rpx;
+}
+.plane_image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+}
+.plane_view {
+  margin-top: 10rpx;
+}
+/* plane end */
+
+/* top_view star */
+.top_view{
+  margin-top: 20rpx;
+  position: relative;
+  color: white;
+}
+image {
+  width: 750rpx;
+}
+
+.top_text {
+  position: absolute;
+  font-weight: bold;
+  top: 250rpx;
+  left: 240rpx;
+  font-size: 70rpx;
+}
+.top_text1 {
+  position: absolute;
+  top: 330rpx;
+  left: 220rpx;
+}
+/* top_view end */
+
+/* mid start */
+.mid_view {
+  margin-top: 10rpx;
+  border-top: 4rpx solid #ccc;
+  border-bottom: 4rpx solid #ccc;
+  padding-top: 5rpx;
+  padding-bottom: 5rpx;
+
+
+}
+.mid_view1 {
+  width: 730rpx;
+  margin-left: 20rpx;
+}
+.mid_text {
+  margin-left: 20rpx;
+  font-size: 50rpx;
+  color: #01a1dd;
+}
+.mid_study {
+  margin-top: 10rpx;
+  border-bottom: 4rpx solid #ccc;
+  padding-bottom: 10rpx;
+}
+.mid_image {
+  width: 730rpx;
+  height: 450rpx;
+  margin-left: 10rpx;
+  margin-top: 20rpx;
+}
+/* mid end */
+
+/* end star */
+.end_view {
+  position: relative;
+  margin-top: 20rpx;
+  color: white;
+}
+.end_image {
+  position: absolute;
+  width: 160%;
+  left:-280rpx;
+  top: 20rpx;
+}
+.end_text {
+  position: absolute;
+  top: 180rpx;
+  font-weight: bold;
+  margin-left: 235rpx;
+  font-size: 60rpx;
+}
+.end_text1 {
+  position: absolute;
+  top: 270rpx;
+  margin-left: 190rpx;
+  font-size: 40rpx;
+  border: 4rpx solid white;
+  border-radius: 10rpx;
+}
+
+/* end end */

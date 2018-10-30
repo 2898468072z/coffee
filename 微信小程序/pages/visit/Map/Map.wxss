@@ -1,0 +1,25 @@
+/* pages/visit/Map/Map.wxss */
+
+/* bottom_view star */
+.bottom_view {
+  width: 750rpx;
+  position: relative;
+  margin-top: 70rpx;
+
+}
+.input_area { 
+  width: 560rpx;
+  margin-top: 20rpx;
+  height: 50rpx;
+  border: 2rpx solid #ccc;
+  margin-left: 20rpx;
+  
+}
+.btn-area {
+  
+  position: absolute;
+  top: -2rpx;
+  right: 10rpx;
+
+}
+/* bottom_view end */

@@ -1,0 +1,426 @@
+<!--pages/visit/visit.wxml-->
+
+<!-- logo star -->
+<view class='plane'>
+<image class='plane_image' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540394568252&di=30794a72d6d058b9e1fdb8767e034044&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F69%2F49%2F81%2F58faca8637b66.png'></image>
+<view><text>聆听Blue的声音</text></view>
+<view><text>所有の故事都与你有关</text></view>
+<view class='plane_view'></view>
+</view>
+<view class='clear'></view>
+<!-- logo end -->
+
+<!-- top star -->
+<view class='top_view'>
+<image class='top_image' src='https://bluebottlecoffee.com/assets/cafes/hero-14f46b4a616e09285566779e8d82b59b9b5e4fcc2e9dff59a19c84028bad7546.jpg'></image>
+<text class='top_text'>找到你的Blue Bottle咖啡馆</text>
+</view>
+<view class='clear'></view>
+<!-- top end -->
+
+
+
+
+<view class='mid_all_view'>
+<!-- aside star -->
+
+
+<view class='aside_view1'>
+
+<view class='aside_text'><text>过滤类型</text></view>
+
+<view class='aside_text1 {{asideClass1}}' bindtap='bindtap1'><text>咖啡馆</text></view>
+<view class='aside_text1 {{asideClass2}}' bindtap='bindtap2'><text>即将开业</text></view>
+<view class='aside_text1 {{asideClass3}}' bindtap='bindtap3'><text>合作伙伴</text></view>
+
+<view class='aside_text'><text>按地区过滤</text></view>
+
+<view class='aside_text1 {{asideClass4}}' bindtap='bindtap4'><text>所有地区</text></view>
+<view class='aside_text1 {{asideClass5}}' bindtap='bindtap5'><text>海湾地区</text></view>
+<view class='aside_text1 {{asideClass6}}' bindtap='bindtap6'><text>纽约</text></view>
+<view class='aside_text1 {{asideClass7}}' bindtap='bindtap7'><text>洛杉矶</text></view>
+<view class='aside_text1 {{asideClass8}}' bindtap='bindtap8'><text>华盛顿特区</text></view>
+<view class='aside_text1 {{asideClass9}}' bindtap='bindtap9'><text>迈阿密</text></view>
+<view class='aside_text1 {{asideClass10}}' bindtap='bindtap10'><text>东京</text></view>
+<view class='aside_text1 {{asideClass11}}' bindtap='bindtap11'><text>京都</text></view>
+<view class='aside_text1 {{asideClass12}}' bindtap='bindtap12'><text>科比</text></view>
+
+
+<view class='clear'></view>
+<!-- aside end -->
+
+</view>
+<!-- right star -->
+
+<!-- 咖啡馆 right_1 star -->
+<!-- <view class='{{display1}} '> -->
+<scroll-view scroll-y='true' class='right_view  {{display1}}'>
+<view >
+
+<view >
+<text  class='blue area'>咖啡馆</text>
+<view  class='right_view1' wx:for="{{mydata1.visit5}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>纽约</text>
+<view  class='right_view1' wx:for="{{mydata1.visit6}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>洛杉矶</text>
+<view  class='right_view1' wx:for="{{mydata1.visit7}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>华盛顿特区</text>
+<view  class='right_view1' wx:for="{{mydata1.visit8}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>迈阿密</text>
+<view  class='right_view1' wx:for="{{mydata1.visit9}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>东京</text>
+<view  class='right_view1' wx:for="{{mydata1.visit10}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>京都</text>
+<view  class='right_view1' wx:for="{{mydata1.visit11}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>科比</text>
+<view  class='right_view1' wx:for="{{mydata1.visit12}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+</view>
+</scroll-view> 
+
+<!-- </view> -->
+
+<!-- 咖啡馆 right_1 end -->
+
+<!-- 即将开业 right_2 star -->
+<!-- <view class='{{display2}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display2}}'>
+<view >
+<text  class='blue area'>即将开业</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit3}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 即将开业 right_2 end -->
+
+<!-- 合作伙伴 right_3 star -->
+<!-- <view class='{{display3}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display3}}'>
+<view >
+<text  class='blue area'>合作伙伴</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit4}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 合作伙伴 right_3 end -->
+
+<!-- 所有地区 right_4 star -->
+<!-- <view class='{{display4}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display4}}'>
+<view >
+
+<view >
+<text  class='blue area'>所有地区</text>
+<view><text class='blue'>---------------------------</text></view>
+<view><text  class='blue area'>海湾地区</text></view>
+<view  class='right_view1' wx:for="{{mydata1.visit5}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>纽约</text>
+<view  class='right_view1' wx:for="{{mydata1.visit6}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>洛杉矶</text>
+<view  class='right_view1' wx:for="{{mydata1.visit7}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>华盛顿特区</text>
+<view  class='right_view1' wx:for="{{mydata1.visit8}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>迈阿密</text>
+<view  class='right_view1' wx:for="{{mydata1.visit9}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>东京</text>
+<view  class='right_view1' wx:for="{{mydata1.visit10}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>京都</text>
+<view  class='right_view1' wx:for="{{mydata1.visit11}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+<view >
+<text  class='blue area'>科比</text>
+<view  class='right_view1' wx:for="{{mydata1.visit12}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+</view>
+
+</view>
+</scroll-view> 
+
+<!-- </view> -->
+
+<!-- 所有地区 right_4 end -->
+
+<!-- 海湾地区 right_5 star -->
+<!-- <view class='{{display5}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display5}}'>
+<view >
+<text  class='blue area'>海湾地区</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit5}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!--海湾地区 right_5 end -->
+
+<!-- 纽约 right_6 star -->
+<!-- <view class='{{display6}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display6}}'>
+<view >
+<text  class='blue area'>纽约</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit6}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 纽约 right_6 end -->
+
+<!-- 洛杉矶 right_7 star -->
+<!-- <view class='{{display7}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display7}}'>
+<view >
+<text  class='blue area'>洛杉矶</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit7}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 洛杉矶 right_7 end -->
+
+<!-- 华盛顿特区 right_8 star -->
+<!-- <view class='{{display8}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display8}}'>
+<view >
+<text  class='blue area'>华盛顿特区</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit8}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 华盛顿特区 right_8 end -->
+
+<!-- 迈阿密 right_9 star -->
+<!-- <view class='{{display9}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display9}}'>
+<view >
+<text  class='blue area'>迈阿密</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit9}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 迈阿密 right_9 end -->
+
+<!-- 东京 right_10 star -->
+<!-- <view class='{{display10}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display10}}'>
+<view >
+<text  class='blue area'>东京</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit10}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 东京 right_10 end -->
+
+<!-- 京都 right_11 star -->
+<!-- <view class='{{display11}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display11}}'>
+<view >
+<text  class='blue area'>京都</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit11}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 京都 right_11 end -->
+
+<!-- 科比 right_12 star -->
+<!-- <view class='{{display12}}'> -->
+<scroll-view scroll-y='true' class='right_view {{display12}}'>
+<view >
+<text  class='blue area'>科比</text>
+
+<view  class='right_view1' wx:for="{{mydata1.visit12}}">
+<view><text>{{item.text}}</text></view>
+<view><text>{{item.text1}}</text></view>
+<view><text>{{item.text2}}</text></view>
+<view class='blue' bindtap='getmap'><text>获取地点--></text></view>
+</view>
+ 
+</view>
+</scroll-view> 
+<!-- </view> -->
+<!-- 科比 right_12 end -->
+
+
+
+
+<!-- right end -->
+</view>
+

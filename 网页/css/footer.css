@@ -1,0 +1,70 @@
+footer  li {
+	margin-top: 10px;
+}
+footer .title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 30px;
+	color: dimgray;
+}
+footer li a {
+	color: darkslategray;
+}
+footer li a:hover {
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+.links {
+	height: 100px;
+	padding-left: 50px;
+}
+.links p {
+	font-size: 16px;
+	font-weight: bold;
+	color: dimgray;
+}
+.links img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+footer .signUp {
+	height: 150px;
+}
+
+footer .signUp img {
+	width: 59px;
+	height: 59px;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+.signUp .box {
+	display: inline-block;
+	width: 500px;
+	height: 100%;
+	margin-left: 20px;
+}
+
+.signUp .box h5 {
+	font-weight: bold;
+	color: dimgray;
+}
+.signUp .box p {
+	font-size: 14px;
+	font-weight: 500;
+	color: darkslategray;
+}
+.signUp .box input {
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.signUp .box .btn {
+	width: 100px;
+	height: 50px;
+	vertical-align: top;
+}

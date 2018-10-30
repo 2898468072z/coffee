@@ -1,0 +1,151 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.er {
+	background-image: url("../images/我们的咖啡.jpg");
+	background-size: 100% 400px;
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+.daokafei{
+	background-image: url("../images/倒咖啡.jpg");
+	background-size: 100% 600px;
+	width: 100%;
+	height: 600px;
+
+}
+.kadei {
+	position: absolute;
+	top: 120px;
+	left: 300px;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+
+.guding {
+	width: 840px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 60px;
+}
+.guding2 {
+	width: 840px;
+	height: 1000px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.biaoyi {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.wenzi {
+	font-size: 18px;
+}
+
+.tu1 {
+	width: 840px;
+	height: 511px;
+
+}
+
+.biaoyi2 {
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	margin: 60px;
+	text-align: center;
+}
+.wenzi2{
+	text-align: center;
+	font-size: 24px;
+	color: #5f5d46;
+}
+.qiangdiao {
+	font-weight: bold;
+	font-size: 24px;
+	color: #000000;
+}
+
+
+
+a:link {text-decoration:none;}
+
+.fengexian {
+	width: 100%;
+	height: 1px;
+	background-color: #464547;
+	margin-top: 40px;
+}
+.tubiao1{
+    display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	top: 40px;
+}
+.zhici{
+	font-size: 44px;
+	text-align: center;
+	display: block;
+	margin-top:50px ;
+}
+.chao2{
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	margin-top:20px ;
+	margin-bottom:60px ;
+}
+.beijin{
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-color: #f3f3f3;
+}
+.tu2{
+	position: absolute;
+	top: 80px;
+	left: 350px;
+}
+.nei1{
+	width: 460px;
+	position: absolute;
+	top: 80px;
+	left: 850px;
+}
+.biaoyi3 {
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	margin-top: 30px;
+}
+.wenkafei{
+	background-image: url("../images/闻咖啡.jpg");
+	background-size: 100% 600px;
+	width: 100%;
+	height: 500px;
+
+}
+a:link {
+	text-decoration:none !important;
+
+}
+a:visited {
+
+text-decoration:none !important;
+} 
+a:hover {
+
+	text-decoration:none !important;
+	}
+a:active {
+
+	text-decoration:none !important;
+	} 

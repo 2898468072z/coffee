@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Coffee Roaster - Brewers, Subscriptions & Brew Guides - Blue Bottle Coffee</title>
+		<!--<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>-->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<link rel="stylesheet" href="css/bay_area.css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<header>
+			<div class="head">
+				<div class="left">
+					<a href="#">
+						<img src="images/logo.png" />
+						<p>BLUE BOTTLE COFFEE</p>
+					</a>
+				</div>
+				<ul class="menu">
+					<li>
+						<a href="#">SHOP</a>
+						<span class="infos info"><a href="#">Subscriptions</a></span>
+					</li>
+					<li>
+						<a href="#">VISIT</a>
+						<ul class="infos visit list-inline">
+							<li>
+								<a href="#">Bay Area</a>
+							</li>
+							<li>
+								<a href="#">New York</a>
+							</li>
+							<li>
+								<a href="#">Los Angeles</a>
+							</li>
+							<li>
+								<a href="#">Washington, D.C.</a>
+							</li>
+							<li>
+								<a href="#">Miami</a>
+							</li>
+							<li>
+								<a href="#">Boston</a>
+							</li>
+							<li>
+								<a href="#">Tokyo</a>
+							</li>
+							<li>
+								<a href="#">Kyoto</a>
+							</li>
+							<li>
+								<a href="#">Kobe</a>
+							</li>
+							<li>
+								<a href="#">Take Home</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">LEARN</a>
+						<ul class="infos visit learn list-inline">
+							<li>
+								<a href="#">Our Story</a>
+							</li>
+							<li>
+								<a href="#">Our Coffee</a>
+							</li>
+							<li>
+								<a href="#">Find Your Coffee Match</a>
+							</li>
+							<li>
+								<a href="#">Brew Guides</a>
+							</li>
+							<li>
+								<a href="#">Events & Classes</a>
+							</li>
+							<li>
+								<a href="#">Blog</a>
+							</li>
+							<li>
+								<a href="#">FAQs</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">CAREERS</a>
+					</li>
+				</ul>
+				<div class="right">
+					<a class="colorful" href="#">SUBSCRIBE</a>
+					<a href="#">SIGN IN</a>
+				</div>
+			</div>
+		</header>
+		<div class="row signIn">
+			<div class="col-md-8 col-md-offset-2 login text-center">
+				<div>
+					<button type="button" class="close" aria-label="Close" onclick="closeSign()"><span aria-hidden="true" onclick="closeSign()">&times;</span></button>
+				</div>
+				<img class="plan" src="images/plan.jpg" />
+				<div class="text-center">
+					<h2>More Cafes Coming Soon</h2>
+					<p>Sign up to be the first to know when we're in your area</p>
+				</div>
+				<div class="text-center">
+					<div>
+						<input type="" class="name" placeholder="you@yourname.com" />
+						<button type="submit" class="btn btn-primary">SIGN UP</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var signIn = document.getElementsByClassName('signIn')[0];
+
+			function closeSign() {
+				signIn.style.display = 'none';
+			}
+		</script>
+		<div class="wrapper">
+			<div class="Central_navigation">
+				<h1 class="text">找到你的Blue Bottle咖啡馆</h1>
+			</div>
+		</div>
+		<!--搜索栏-->
+		<div class="Search">
+			<div class="Search_bar">
+				<div class="Search_left">使用当前位置</div>
+				<div><input class="Search_mid" type="text" name="" id="" value="Search by city or zip" /></div>
+				<div class="Search_right"><button class="btn">搜索</button></div>
+			</div>
+		</div>
+		<hr />
+		<div class="center">
+			<div class="upper_left">
+				<ul>
+					<li id="block">过滤类型</li>
+					<li><input type="checkbox" name="" id="" value="" /> 咖啡馆</li>
+					<li><input type="checkbox" name="" id="" value="" /> 咖啡馆即将开业</li>
+					<li><input type="checkbox" name="" id="" value="" /> 零售合作伙伴</li>
+				</ul>
+			</div>
+			<div class="upper_low">
+				<ul>
+					<li id="block">按地区过滤</li>
+					<li>所有地点</li>
+					<li>海湾特区</li>
+					<li>纽约</li>
+					<li>洛杉矶</li>
+					<li>华盛顿特区</li>
+					<li>迈阿密</li>
+					<li>波士顿</li>
+					<li>东京</li>
+					<li>京都</li>
+					<li>科比</li>
+				</ul>
+			</div>
+			<div class="vertical"></div>
+			<div class="navigation">东京</div>
+			<div class="active_o">
+				<ul>
+					<li class="changepic">青山</li>
+					<li>14年3月13日南青山  </li>
+					<li>港区，东京107-0062</li>
+					<li class="changepic1">获取路线 ></li>
+				</ul>
+				<ul>
+					<li class="changepic">目黑</li>
+					<li>1-2-19 Shimomeguro </li>
+					<li>Meguro-ku，Tokyo 153-0064</li>
+					<li class="changepic1">获取路线 ></li>
+				</ul>
+				<ul>
+					<li class="changepic">六本木</li>
+					<li>7-7-7 Roppongi </li>
+					<li>Minato-ku，Tokyo 106-0032</li>
+					<li class="changepic1">获取路线 ></li>
+				</ul>
+				<ul>
+					<li class="changepic">品川</li>
+					<li>品川站</li>
+					<li>2-18-1江南</li>
+					<li>港区，东京108-0075</li>
+					<li class="changepic1">获取路线 ></li>
+				</ul>
+			</div>
+			<div class="active_t">
+				<ul>
+					<li class="changepic">清澄	</li>
+					<li> </li><br />
+					<li>东京都平野 区1-4-8，135-0023</li>
+					<li class="changepic1">获取路线 ></li>
+				</ul>
+				<ul>
+					<li class="changepic">目黑</li>
+					<li>3-23-16 Nakameguro </li>
+					<li>Meguro-ku，Tokyo 153-0061</li>
+					<li class="changepic1">获取路线 ></li>
+				</ul>
+				<ul>
+					<li class="changepic">三轩茶屋</li>
+					<li> </li><br />
+					<li>东京都世田谷区三轩茶屋1-33-18</li>
+					<li class="changepic1">获取路线 ></li>
+				</ul>
+				<ul>
+					<li class="changepic">新宿</li>
+					<li>4-1-6 Shinjuku </li>
+					<li>Shinjuku-ku，Tokyo 160-0022</li>
+					<li class="changepic1">获取路线 ></li>
+				</ul>
+				
+			</div>
+			
+		</div>
+				<hr />
+		<footer class="row">
+			<div class="row">
+				<div class="col-md-2 col-md-offset-2">
+					<ul>
+						<li class="title">BASICS</li>
+						<li>
+							<a href="#">Our Story</a>
+						</li>
+						<li>
+							<a href="#">Our Coffee</a>
+						</li>
+						<li>
+							<a href="#">Visit</a>
+						</li>
+						<li>
+							<a href="#">NOLA&Cold Brew</a>
+						</li>
+						<li>
+							<a href="#">Events</a>
+						</li>
+						<li>
+							<a href="#">Modern Art Desserts</a>
+						</li>
+						<li>
+							<a href="#">FAQ</a>
+						</li>
+						<li>
+							<a href="#">Frequency Blog</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<ul>
+						<li class="title">SHOP</li>
+						<li>
+							<a href="#">Coffee</a>
+						</li>
+						<li>
+							<a href="#">Brewing</a>
+						</li>
+						<li>
+							<a href="#">Gifts</a>
+						</li>
+						<li>
+							<a href="#">Subscriptions</a>
+						</li>
+						<li>
+							<a href="#">Gift Subscriptions</a>
+						</li>
+						<li>
+							<a href="#">Special Orders</a>
+						</li>
+						<li>
+							<a href="#">Redeem Your Gift</a>
+						</li>
+						<li>
+							<a href="#">Return Policy</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<ul>
+						<li class="title">BREW GUIDES</li>
+						<li>
+							<a href="#">Aeropress</a>
+						</li>
+						<li>
+							<a href="#">Chemex</a>
+						</li>
+						<li>
+							<a href="#">Cold Brew</a>
+						</li>
+						<li>
+							<a href="#">Pour Over</a>
+						</li>
+						<li>
+							<a href="#">French Press</a>
+						</li>
+						<li>
+							<a href="#">New Orleans Iced</a>
+						</li>
+						<li>
+							<a href="#">Siphon</a>
+						</li>
+						<li>
+							<a href="#">More...</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<li class="title">SPECIAL COLLECTIONS</li>
+						<li>
+							<a href="#">Perfectly Ground Coffee</a>
+						</li>
+						<li class="title">COMPANY</li>
+						<li>
+							<a href="#">Careers</a>
+						</li>
+						<li>
+							<a href="#">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr />
+			<div class="row">
+				<div class="links col-md-3 col-md-offset-2">
+					<p>CONNECT WITH US</p>
+					<a href="#"><img src="images/facebook.jpg" /></a>
+					<a href="#"><img src="images/instagram.gif" /></a>
+					<a href="#"><img src="images/twitter.jpg" /></a>
+				</div>
+				<div class="signUp col-md-6">
+					<img src="images/plan.jpg" />
+					<div class="box">
+						<h5>STAY UPDATED WITH BLUE BOTTLE COFFEE</h5>
+						<p>Sign up for stories, coffee tips, and brewing equipment</p>
+						<input type="text" placeholder="Your email here" />
+						<button class="btn btn-primary">SIGN UP</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

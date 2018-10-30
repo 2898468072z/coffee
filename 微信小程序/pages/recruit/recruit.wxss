@@ -1,0 +1,53 @@
+/* pages/recruit/recruit.wxss */
+
+/* 全局样式 */
+text {
+  font-family:serif;
+}
+.clear {
+  clear:both;
+}
+
+/* plane start */
+.plane {
+  width: 744rpx;
+  text-align: center;
+  border-top: 4rpx solid #ccc;
+  border-bottom: 4rpx solid #ccc;
+  margin-top: 15rpx;
+}
+.plane_image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+}
+.plane_view {
+  margin-top: 10rpx;
+}
+/* plane end */
+
+/* top_view star */
+.top_view {
+  margin-top: 30rpx;
+}
+.top_image {
+  width: 200%;
+  right:300rpx;
+  position: relative;
+}
+/* top_view end */
+
+/* end_view star */
+.end_view {
+  text-align: center;
+  margin-top: 30rpx;
+}
+.end_text {
+  background-color: #01a1dd;
+  border-radius: 10rpx;
+  color: #fff;
+}
+.end_end {
+padding-top: 50rpx;
+}
+/* end_view end */

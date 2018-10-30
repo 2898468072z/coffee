@@ -1,0 +1,28 @@
+/* pages/recruit/hello/hello.wxss */
+/* 全局样式 */
+text {
+  font-family:serif;
+}
+
+
+.welcome_image {
+  width: 750rpx;
+  height: 1210rpx;
+}
+.welcome_view {
+  position: relative;
+  color: white;
+}
+.welcome_text {
+  position: absolute;
+  top: 170rpx;
+  left: 270rpx;
+}
+.welcome_text1 {
+  position: absolute;
+  top: 295rpx;
+  left: 220rpx;
+  border: 1rpx solid #fff;
+  border-radius: 3rpx;
+  box-shadow: 2rpx 2rpx 2rpx #eee;
+}

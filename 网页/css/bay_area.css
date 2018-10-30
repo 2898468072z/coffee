@@ -1,0 +1,172 @@
+body {
+	overflow:-Scroll;
+	overflow-x:hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+.navbar {
+	width: 100%;
+	height: 69px;
+	border: 1px solid grey;
+}
+
+.wrapper {
+	width: 100%;
+	height: 507px;
+	/*background-color: firebrick;*/
+}
+
+.Search {
+	width: 100%;
+	height: 131px;
+	/*background-color: goldenrod;*/
+	position: relative;
+}
+
+.Search_bar {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	/*background-color: saddlebrown;*/
+	top: 40px;
+}
+
+.Search_left {
+	position: absolute;
+	font-size: 20px;
+	left: 280px;
+	line-height: 50px;
+}
+
+.Search_mid {
+	width: 560px;
+	height: 46px;
+	line-height: 50px;
+	font-size: 20px;
+	position: absolute;
+	left: 500px;
+}
+
+.Search_right {
+	width: 92px;
+	height: 48px;
+	position: absolute;
+	left: 1064px;
+}
+
+.btn {
+	width: 92px;
+	height: 49px;
+	font-size: 16px;
+	color: #01A1DD;
+}
+
+.Central_navigation {
+	background-image: url("../images/1.jpg");
+}
+
+.text {
+	font-size: 29px;
+	text-align: center;
+	line-height: 507px;
+	color: white;
+}
+
+.center {
+	width: 100%;
+	height: 1604px;
+	position: relative;
+}
+
+.upper_left {
+	width: 130px;
+	height: 115px;
+	position: absolute;
+	top: 35px;
+	left: 210px;
+	line-height: 32px;
+}
+
+.upper_low {
+	height: 420px;
+	width: 130px;
+	position: absolute;
+	left: 210px;
+	top: 197px;
+	line-height: 36px;
+}
+
+#block {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.upper_low>ul>li {
+	font-size: 18px;
+}
+
+.vertical {
+	width: 1px;
+	height: 600px;
+	position: absolute;
+	top: 35px;
+	left: 412px;
+	background-color: #E5E5E5;
+}
+
+.navigation {
+	position: absolute;
+	width: 150px;
+	height: 27px;
+	color: #555555;
+	top: 35px;
+	left: 472px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.active_o {
+	width: 300px;
+	height: 1350px;
+	position: absolute;
+	top: 64px;
+	left: 472px;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 500;
+}
+
+.changepic {
+	color: #01A1DD;
+	margin-top: 53px;
+}
+
+.changepic1 {
+	color: #01A1DD;
+}
+
+#changepic {
+	color: #01A1DD;
+	font-weight: 600;
+	margin-top: 53px;
+}
+
+.active_t {
+	width: 300px;
+	height: 1350px;
+	position: absolute;
+	top: 64px;
+	left: 831px;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 500;
+}

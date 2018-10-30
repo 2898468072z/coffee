@@ -1,0 +1,185 @@
+body {
+	overflow:-Scroll;
+	overflow-x:hidden;
+}
+.bgImg {
+    height: 550px;
+    background-image: url(../images/indexImg.jpg);
+    background-size: 100% 115%;
+}
+
+.bgTitle {
+    width: 960px;
+    height: 549px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+}
+.bgTitle .box {
+    width: 100%;
+    height: 240px;
+    margin-top: 230px;
+    color: #696969;
+}
+
+.bgTitle .box p {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.bgTitle .box h1 {
+    width: 400px;
+    letter-spacing: 1px;
+}
+
+.guides {
+	height: 430px;
+	margin-top: 20px;
+}
+.guides>div {
+	height: 430px;
+	/*background-color: pink;*/
+}
+
+.guides {
+	cursor: pointer;
+}
+
+.guide .p1 {
+	width: 98%;
+	height: 330px;
+	background-image: url(../images/p1.jpg);
+	background-size: 100% 330px;
+}
+
+.guide .p2 {
+	width: 98%;
+	height: 330px;
+	background-image: url(../images/p2.jpg);
+	background-size: 100% 330px;
+}
+
+.guide h3 {
+	color: dimgray;
+}
+
+.p1>p,
+.p2>p {
+	width: 100%;
+	height: 100%;
+}
+
+.p1:hover p {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.p2:hover p {
+	background-color: rgba(0,0,0,0.2);
+}
+
+.guides .text {
+	font-size: 18px;
+	color: dimgray;
+}
+
+.guideLine {
+	width: 80%;
+	margin: 50px auto;
+}
+
+.buyer {
+	height: 366px;
+	/*background-color: gray;*/
+}
+
+.buyer .title {
+	font-size: 16px;
+	font-weight: bolder;
+	margin: 20px;
+	color: darkgray;
+}
+.buyer .text {
+	display: inline-block;
+	width: 60%;
+	font-size: 35px;
+	margin-top: 20px;
+	color: darkgray;
+}
+
+.find {
+	margin-top: 20px;
+}
+
+.find a {
+	color: dodgerblue;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.find a:hover {
+	color: purple;
+}
+
+.match {
+	height: 378px;
+	background-image: url(../images/match.jpg);
+	background-size: 100% 100%;
+}
+
+.match .content {
+	width: 460px;
+	height: 119px;
+	margin-top: 130px;
+}
+
+.match .content p {
+	font-size: 18px;
+	font-weight: bold;
+	color: dimgray;
+}
+.match .content .btn {
+	width: 170px;
+	height: 45px;
+	line-height: 33px;
+}
+h1 {
+	color: darkslategray;
+}
+.bottle .p1 {
+	width: 98%;
+	height: 330px;
+	background-image: url(../images/p3.jpg);
+	background-size: 100% 330px;
+}
+
+.bottle .p2 {
+	width: 98%;
+	height: 330px;
+	background-image: url(../images/p4.jpg);
+	background-size: 100% 330px;
+}
+
+.guides .bottle h5{
+	color: darkgray;
+	font-weight: bold;
+}
+
+.guides .bottle p {
+	color: dimgray;
+	font-size: 20px;
+}
+
+.bottle a {
+	font-weight: bold;
+	color: deepskyblue;
+	text-decoration: none;
+}
+
+.bottle a:hover {
+	color: mediumpurple;
+}
+
+hr {
+	margin-top: 30px;
+}

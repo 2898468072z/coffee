@@ -1,0 +1,49 @@
+<!--pages/study/study.wxml-->
+<!-- logo star -->
+<view class='plane'>
+<image class='plane_image' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540394568252&di=30794a72d6d058b9e1fdb8767e034044&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F69%2F49%2F81%2F58faca8637b66.png'></image>
+<view><text>聆听Blue的声音</text></view>
+<view><text>所有の故事都与你有关</text></view>
+<view class='plane_view'></view>
+</view>
+<view class='clear'></view>
+<!-- logo end -->
+
+<!-- top_view star -->
+<view class='top_view'>
+<image src='https://blue-bottle-cms.global.ssl.fastly.net/hbhhv9rz9/image/upload/v1475191844/hhke7oyherdzzrvxs3na.jpg'></image>
+<view><text class='top_text'>浓咖啡</text></view>
+<text class='top_text1'>追逐完美的幽灵</text>
+</view>
+<view class='clear'></view>
+<!-- top_view end -->
+
+<!-- mid_view star -->
+<view class='mid_view'>
+<text class='mid_text'>背景</text>
+<view class='mid_view1' >
+<text>这是一个不完美的事实：在家用浓缩咖啡机上玩耍就像用降落伞降落伞跳伞 - 这是一种不稳定的努力，几乎没有乐观的态度。我们用手上的许多低温浓咖啡的污渍说话：这是一个挑剔的业务。但是，一旦你的工具井井有条，路径就会变得更加清晰，挑战就变成了耐心和实践。你可以花一辈子努力实现完美的拍摄。（好吧，我们有）。当你瞥见它时，你将在崇高的和谐中刷平衡，粘度，甜度和深度。</text>
+</view>
+</view>
+<view class='clear'></view>
+<!-- mid_view end -->
+
+<!-- mid_study star -->
+<view  class='mid_study' wx:for="{{mydata1.study}}">
+<text class='mid_text'>{{item.text}}</text>
+<view class='mid_view1'><text>{{item.text1}}</text></view>
+<image class='mid_image' src='{{item.image}}'></image>
+</view>
+<view class='clear'></view>
+<!-- mid_study end -->
+
+<!-- end_view star -->
+
+<view class='end_view'>
+<view class='end_image0'>
+<image class='end_image' src='https://bluebottlecoffee.com/assets/brew-guides/steps/espresso-step-8-fa25b1d488a05aa3173c7805ea7c5a22eb34ef25a9887f55709202b61218acb7.jpg'></image>
+<text class='end_text'>请享用</text>
+<text class='end_text1'>购买我们的咖啡</text>
+</view>
+</view>
+<!-- end_view end -->

@@ -1,0 +1,572 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/js1.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/css5.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+	<header>
+		<div class="head">
+			<div class="left">
+				<a href="/index">
+					<img src="images/logo.png" />
+					<p>BLUE BOTTLE COFFEE</p>
+				</a>
+			</div>
+			<ul class="menu">
+				<li>
+					<a href="/shop">SHOP</a>
+					<span class="infos info"><a href="/shop">Subscriptions</a></span>
+				</li>
+				<li>
+					<a href="/bay_area">VISIT</a>
+					<ul class="infos visit list-inline">
+						<li>
+							<a href="/bay_area">Bay Area</a>
+						</li>
+						<li>
+							<a href="/new_york">New York</a>
+						</li>
+						<li>
+							<a href="/los_angeles">Los Angeles</a>
+						</li>
+						<li>
+							<a href="/dc">Washington, D.C.</a>
+						</li>
+						<li>
+							<a href="/miami">Miami</a>
+						</li>
+						<li>
+							<a href="/boston">Boston</a>
+						</li>
+						<li>
+							<a href="/tokyo">Tokyo</a>
+						</li>
+						<li>
+							<a href="/kyoto">Kyoto</a>
+						</li>
+						<li>
+							<a href="/kobe">Kobe</a>
+						</li>
+						<li>
+							<a href="/retailer">Take Home</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javaSCript:void(0)">LEARN</a>
+					<ul class="infos visit learn list-inline">
+						<li>
+							<a href="/our-story">Our Story</a>
+						</li>
+						<li>
+							<a href="/our-coffee">Our Coffee</a>
+						</li>
+						<li>
+							<a href="/coffee-match">Find Your Coffee Match</a>
+						</li>
+						<li>
+							<a href="/preparation-guides">Brew Guides</a>
+						</li>
+						<li>
+							<a href="/events">Events & Classes</a>
+						</li>
+						<li>
+							<a href="/frequency">Blog</a>
+						</li>
+						<li>
+							<a href="/help">FAQs</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="/careers">CAREERS</a>
+				</li>
+			</ul>
+			<div class="right">
+				<a class="colorful" href="/shop">SUBSCRIBE</a>
+				<a href="/sign_in">SIGN IN</a>
+			</div>
+		</div>
+	</header>
+	<div class="row signIn">
+		<div class="col-md-8 col-md-offset-2 login text-center">
+			<div>
+				<button type="button" class="close" aria-label="Close" onclick="closeSign()"><span aria-hidden="true" onclick="closeSign()">&times;</span></button>
+			</div>
+			<img class="plan" src="images/plan.jpg" />
+			<div class="text-center">
+				<h2>More Cafes Coming Soon</h2>
+				<p>Sign up to be the first to know when we're in your area</p>
+			</div>
+			<div class="text-center">
+				<div>
+					<input type="" class="name" placeholder="you@yourname.com" />
+					<button type="submit" class="btn btn-primary">SIGN UP</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var signIn = document.getElementsByClassName('signIn')[0];
+
+		function closeSign() {
+			signIn.style.display = 'none';
+		}
+	</script>
+	<hr />
+	<div class="si">
+		<p class="wo">Join us for an event near you.</p>
+	</div>
+	<div class="toubu">
+
+		<form class="form-inline ">
+			<div class="form-group ">
+				<span class="glyphicon glyphicon-send zi1" aria-hidden="true"></span>
+				<span class="sousuo zi2">Use current location</span>
+				<label class="sr-only" for="exampleInputAmount"></label>
+				<div class="input-group anliu2">
+					<div class="input-group-addon anliu">
+						<span class="glyphicon glyphicon-search zi1" aria-hidden="true"></span>
+					</div>
+					<input type="text" class="form-control anliu4 " id="exampleInputAmount" placeholder="Search by city or zip">
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary anliu">SEARCH</button>
+		</form>
+	</div>
+	<div class="fengexian"></div>
+
+	<div class="liebiao">
+		<ul class="list-group">
+			<li class="list-group-item bian">FILTER BY REGION</li>
+			<li class="list-group-item bian"><a href="#a">All Locations</a></li>
+			<li class="list-group-item bian"><a href="#b">Bay Area</a></li>
+			<li class="list-group-item bian"><a href="#c">New York</a></li>
+			<li class="list-group-item bian"><a href="#d">Los Angeles</a></li>
+		</ul>
+	</div>
+	<div class="dakuangjia">
+		<div class="xiaokungjia" id="a" id="b">
+			<p class="wenzi1">Bay Area</p>
+			<p class="wenzi2">Blue Bottle Coffee Lab – Dripper Brew Class – Palo Alto</p>
+		</div>
+		<div class="tu">
+			<img class="tu1" src="images/喝咖啡3.jpg" />
+		</div>
+		<div class="fengexian"></div>
+		<div class="lie">
+			<p class="shijian">Saturday, October 27, 2018, 1:00 pm - 2:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Saturday, November 3, 2018, 1:00 pm - 2:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Saturday, November 10, 2018, 1:00 pm - 2:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Saturday, November 17, 2018, 1:00 pm - 2:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Saturday, November 24, 2018, 1:00 pm - 2:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Saturday, December 1, 2018, 1:00 pm - 2:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Saturday, December 8, 2018, 1:00 pm - 2:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Saturday, December 15, 2018, 1:00 pm - 2:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="xiaokungjia">
+			<p class="wenzi3">Blue Bottle Coffee Lab – Coffee Cupping – Webster Street</p>
+		</div>
+		<div class="tu">
+			<img class="tu1" src="images/看书1.jpg" />
+		</div>
+		<div class="fengexian"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, October 28, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, October 28, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR SPOT</span><span
+					 class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 4, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 4, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR SPOT</span><span
+					 class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 11, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 11, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 18, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 18, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 25, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, October 28, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR SPOT</span><span
+					 class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 4, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 4, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR SPOT</span><span
+					 class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 11, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 11, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 18, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 18, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="xiaokungjia">
+			<p class="wenzi4">Piedmont Ave – Community Day</p>
+		</div>
+		<div class="tu">
+			<img class="tu1" src="images/看书2.jpg" />
+		</div>
+		<div class="fengexian3"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 18, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="xiaokungjia" id="d">
+			<p class="wenzi5">Los Angeles</p>
+			<p class="wenzi2">Blue Bottle Coffee Lab – Dripper Brew Class – Echo Park</p>
+		</div>
+		<div class="tu">
+			<img class="tu1" src="images/看书3.jpg" />
+		</div>
+		<div class="fengexian"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 4, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR SPOT</span><span
+					 class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div></span></p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 11, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div></span></p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 18, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div></span></p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 18, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 25, 2018, 11:00 am - 12:00 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="xiaokungjia">
+
+			<p class="wenzi4">Roastery Tour + Coffee Primer</p>
+		</div>
+		<div class="tu">
+			<img class="tu1" src="images/看书4.jpg" />
+		</div>
+		<div class="fengexian"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 4, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR SPOT</span><span
+					 class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 11, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="xiaokungjia" id="c">
+			<p class="wenzi4">Roastery & Distillery Tour</p>
+		</div>
+		<div class="tu">
+			<img class="tu1" src="images/看书5.jpg" />
+		</div>
+		<div class="fengexian"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 4, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR SPOT</span><span
+					 class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 11, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="xiaokungjia">
+
+			<p class="wenzi4">Blue Bottle Coffee Lab – Dripper Brew Class – Robertson</p>
+		</div>
+		<div class="tu">
+			<img class="tu1" src="images/看书6.jpg" />
+		</div>
+		<div class="fengexian"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 4, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR SPOT</span><span
+					 class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="lie">
+			<p class="shijian">Sunday, November 11, 2018, 1:30 pm - 2:30 pm<div class="you"><span class="weizi">RESERVE YOUR
+						SPOT</span><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
+			</p>
+		</div>
+		<div class="fengexian2"></div>
+		<div class="jiesu">
+			<p class="wan">New classes are announced at the beginning of each month.</p>
+
+		</div>
+
+
+
+	</div>
+
+	<div class="fengexian"></div>
+
+
+	<footer class="row">
+		<div class="row">
+			<div class="col-md-2 col-md-offset-2">
+				<ul>
+					<li class="title">BASICS</li>
+					<li>
+						<a href="/our-story">Our Story</a>
+					</li>
+					<li>
+						<a href="/our-coffee">Our Coffee</a>
+					</li>
+					<li>
+						<a href="/bay_area">Visit</a>
+					</li>
+					<li>
+						<a href="/index">NOLA&Cold Brew</a>
+					</li>
+					<li>
+						<a href="/events">Events</a>
+					</li>
+					<li>
+						<a href="/index">Modern Art Desserts</a>
+					</li>
+					<li>
+						<a href="/help">FAQ</a>
+					</li>
+					<li>
+						<a href="/frequency">Frequency Blog</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>
+					<li class="title">SHOP</li>
+					<li>
+						<a href="/index">Coffee</a>
+					</li>
+					<li>
+						<a href="/index">Brewing</a>
+					</li>
+					<li>
+						<a href="/index">Gifts</a>
+					</li>
+					<li>
+						<a href="/shop">Subscriptions</a>
+					</li>
+					<li>
+						<a href="/index">Gift Subscriptions</a>
+					</li>
+					<li>
+						<a href="/index">Special Orders</a>
+					</li>
+					<li>
+						<a href="/index">Redeem Your Gift</a>
+					</li>
+					<li>
+						<a href="/help">Return Policy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>
+					<li class="title">BREW GUIDES</li>
+					<li>
+						<a href="/index">Aeropress</a>
+					</li>
+					<li>
+						<a href="/index">Chemex</a>
+					</li>
+					<li>
+						<a href="/index">Cold Brew</a>
+					</li>
+					<li>
+						<a href="/index">Pour Over</a>
+					</li>
+					<li>
+						<a href="/index">French Press</a>
+					</li>
+					<li>
+						<a href="/index">New Orleans Iced</a>
+					</li>
+					<li>
+						<a href="/index">Siphon</a>
+					</li>
+					<li>
+						<a href="/preparation-guides">More...</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li class="title">SPECIAL COLLECTIONS</li>
+					<li>
+						<a href="/index">Perfectly Ground Coffee</a>
+					</li>
+					<li class="title">COMPANY</li>
+					<li>
+						<a href="/careers">Careers</a>
+					</li>
+					<li>
+						<a href="/contact">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<hr />
+		<div class="row">
+			<div class="links col-md-3 col-md-offset-2">
+				<p>CONNECT WITH US</p>
+				<a href="javaScript:void(0)"><img src="images/facebook.jpg" /></a>
+				<a href="javaScript:void(0)"><img src="images/instagram.gif" /></a>
+				<a href="javaScript:void(0)"><img src="images/twitter.jpg" /></a>
+			</div>
+			<div class="signUp col-md-6">
+				<img src="images/plan.jpg" />
+				<div class="box">
+					<h5>STAY UPDATED WITH BLUE BOTTLE COFFEE</h5>
+					<p>Sign up for stories, coffee tips, and brewing equipment</p>
+					<input type="text" placeholder="Your email here" />
+					<button class="btn btn-primary">SIGN UP</button>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

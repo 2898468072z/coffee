@@ -1,0 +1,9 @@
+<!--pages/recruit/hello/hello.wxml-->
+<view class='welcome_view'>
+
+<image class='welcome_image' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540477451952&di=0f81094d3a107b337cb764e8d68580d4&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Ftfscom%2Fi4%2F122126647%2FTB1il.lh8smBKNjSZFFXXcT9VXa_%2521%25210-item_pic.jpg'></image>
+
+<text class='welcome_text'>等候你很久了</text>
+<view bindtap='bindtap1'><text class='welcome_text1' >了解Blue 咖啡招聘</text></view>
+</view>
+

@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/recruit/hello/message/message",
+    "pages/visit/Map/Map",
+    "pages/visit/visit",
+    "pages/study/study",
+    "pages/shop/shop",
+    "pages/recruit/recruit",
+    "pages/recruit/hello/hello",
+    "pages/home/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#01a1dd",
+    "navigationBarTitleText": "Blue咖啡",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#01a1dd",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/visit/visit",
+        "text": "访问",
+        "iconPath": "icon/001.png",
+        "selectedIconPath": "icon/01.png"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "text": "学习",
+        "iconPath": "icon/002.png",
+        "selectedIconPath": "icon/02.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "icon/003.png",
+        "selectedIconPath": "icon/03.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "店铺",
+        "iconPath": "icon/004.png",
+        "selectedIconPath": "icon/04.png"
+      },
+      {
+        "pagePath": "pages/recruit/recruit",
+        "text": "招聘",
+        "iconPath": "icon/005.png",
+        "selectedIconPath": "icon/05.png"
+      }
+    ]
+  }
+}

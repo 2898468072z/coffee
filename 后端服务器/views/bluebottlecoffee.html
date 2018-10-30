@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bluebottlecoffee.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+	<header>
+		<div class="head">
+			<div class="left">
+				<a href="/index">
+					<img src="images/logo.png" />
+					<p>BLUE BOTTLE COFFEE</p>
+				</a>
+			</div>
+			<ul class="menu">
+				<li>
+					<a href="/shop">SHOP</a>
+					<span class="infos info"><a href="/shop">Subscriptions</a></span>
+				</li>
+				<li>
+					<a href="/bay_area">VISIT</a>
+					<ul class="infos visit list-inline">
+						<li>
+							<a href="/bay_area">Bay Area</a>
+						</li>
+						<li>
+							<a href="/new_york">New York</a>
+						</li>
+						<li>
+							<a href="/los_angeles">Los Angeles</a>
+						</li>
+						<li>
+							<a href="/dc">Washington, D.C.</a>
+						</li>
+						<li>
+							<a href="/miami">Miami</a>
+						</li>
+						<li>
+							<a href="/boston">Boston</a>
+						</li>
+						<li>
+							<a href="/tokyo">Tokyo</a>
+						</li>
+						<li>
+							<a href="/kyoto">Kyoto</a>
+						</li>
+						<li>
+							<a href="/kobe">Kobe</a>
+						</li>
+						<li>
+							<a href="/retailer">Take Home</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javaSCript:void(0)">LEARN</a>
+					<ul class="infos visit learn list-inline">
+						<li>
+							<a href="/our-story">Our Story</a>
+						</li>
+						<li>
+							<a href="/our-coffee">Our Coffee</a>
+						</li>
+						<li>
+							<a href="/coffee-match">Find Your Coffee Match</a>
+						</li>
+						<li>
+							<a href="/preparation-guides">Brew Guides</a>
+						</li>
+						<li>
+							<a href="/events">Events & Classes</a>
+						</li>
+						<li>
+							<a href="/frequency">Blog</a>
+						</li>
+						<li>
+							<a href="/help">FAQs</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="/careers">CAREERS</a>
+				</li>
+			</ul>
+			<div class="right">
+				<a class="colorful" href="/shop">SUBSCRIBE</a>
+				<a href="/sign_in">SIGN IN</a>
+			</div>
+		</div>
+	</header>
+	<div class="row signIn">
+		<div class="col-md-8 col-md-offset-2 login text-center">
+			<div>
+				<button type="button" class="close" aria-label="Close" onclick="closeSign()"><span aria-hidden="true" onclick="closeSign()">&times;</span></button>
+			</div>
+			<img class="plan" src="images/plan.jpg" />
+			<div class="text-center">
+				<h2>More Cafes Coming Soon</h2>
+				<p>Sign up to be the first to know when we're in your area</p>
+			</div>
+			<div class="text-center">
+				<div>
+					<input type="" class="name" placeholder="you@yourname.com" />
+					<button type="submit" class="btn btn-primary">SIGN UP</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var signIn = document.getElementsByClassName('signIn')[0];
+
+		function closeSign() {
+			signIn.style.display = 'none';
+		}
+	</script>
+	<hr />
+	<div class="img">
+		<img src="images/wlogo.png" />
+	</div>
+	<div class="select">
+
+		<div class="dropdown">
+			<span>过滤：</span>
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+			 aria-haspopup="true" aria-expanded="true">
+				市
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				<li>
+					<a href="#">所有</a>
+				</li>
+				<li>
+					<a href="#">加利福尼亚州伯克利</a>
+				</li>
+				<li>
+					<a href="#">马萨诸塞州波士顿</a>
+				</li>
+				<li role="separator" class="divider"></li>
+				<li>
+					<a href="#">纽约布鲁克林区</a>
+				</li>
+				<li>
+					<a href="#">大纽约地区</a>
+				</li>
+				<li>
+					<a href="#">加利福尼亚州洛杉矶</a>
+				</li>
+				<li>
+					<a href="#">马萨诸塞州波士顿</a>
+				</li>
+				<li>
+					<a href="#">纽约曼哈顿</a>
+				</li>
+				<li>
+					<a href="#">佛罗里达州迈阿密</a>
+				</li>
+				<li>
+					<a href="#">多个地点</a>
+				</li>
+				<li>
+					<a href="#">加利福尼亚州纽波特海滩</a>
+				</li>
+				<li>
+					<a href="#">加利福尼亚州伯克利</a>
+				</li>
+				<li>
+					<a href="#">马萨诸塞州波士顿</a>
+				</li>
+				<li>
+					<a href="#">加利福尼亚州奥克兰</a>
+				</li>
+				<li>
+					<a href="#">加利福尼亚州奥兰治县</a>
+				</li>
+				<li>
+					<a href="#">马萨诸塞州波士顿</a>
+				</li>
+				<li>
+					<a href="#">旧金山湾区</a>
+				</li>
+				<li>
+					<a href="#">加利福尼亚州圣马特奥市</a>
+				</li>
+				<li>
+					<a href="#">马萨诸塞州波士顿</a>
+				</li>
+				<li>
+					<a href="#">华盛顿特区</a>
+				</li>
+				<li>
+					<a href="#">加利福尼亚州伯克利</a>
+				</li>
+				<li>
+					<a href="#">S加利福尼亚州伍德兰希尔斯</a>
+				</li>
+			</ul>
+
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+			 aria-haspopup="true" aria-expanded="true">
+				团队
+				<span class="caret"></span>
+				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					<li><a href="#">所有</a></li>
+					<li><a href="#">咖啡馆</a></li>
+					<li><a href="#">咖啡馆</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="#">咖啡馆领导</a></li>
+					<li><a href="#">洗碗机和准备厨师</a></li>
+					<li><a href="#">包装消费品/a></li>
+					<li><a href="#">包装消费品</a></li>
+					<li><a href="#">数字</a></li>
+					<li><a href="#">工程与系统</a></li>
+					<li><a href="#">产品管理</a></li>
+					<li><a href="#">操作</a></li>
+					<li><a href="#">商业行动与战略</a></li>
+					<li><a href="#">人</a></li>
+					<li><a href="#">生产</a></li>
+					<li><a href="#">加利福尼亚州奥兰治县</a></li>
+					<li><a href="#">马萨诸塞州波士顿</a></li>
+					<li><a href="#">旧金山湾区</a></li>
+					<li><a href="#">加利福尼亚州圣马特奥市</a></li>
+					<li><a href="#">马萨诸塞州波士顿</a></li>
+					<li><a href="#">华盛顿特区</a></li>
+					<li><a href="#">加利福尼亚州伯克利</a></li>
+					<li><a href="#">S加利福尼亚州伍德兰希尔斯</a></li>
+				</ul>
+
+
+				<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown"
+				 aria-haspopup="true" aria-expanded="true">
+					工作类型
+					<span class="caret"></span>
+					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+						<li><a href="#">所有</a></li>
+						<li><a href="#">加利福尼亚州伯克利</a></li>
+						<li><a href="#">马萨诸塞州波士顿</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">纽约布鲁克林区</a></li>
+						<li><a href="#">大纽约地区</a></li>
+						<li><a href="#">加利福尼亚州洛杉矶</a></li>
+						<li><a href="#">马萨诸塞州波士顿</a></li>
+						<li><a href="#">纽约曼哈顿</a></li>
+						<li><a href="#">佛罗里达州迈阿密</a></li>
+						<li><a href="#">多个地点</a></li>
+						<li><a href="#">加利福尼亚州纽波特海滩</a></li>
+						<li><a href="#">加利福尼亚州伯克利</a></li>
+						<li><a href="#">马萨诸塞州波士顿</a></li>
+						<li><a href="#">加利福尼亚州奥克兰</a></li>
+						<li><a href="#">加利福尼亚州奥兰治县</a></li>
+						<li><a href="#">马萨诸塞州波士顿</a></li>
+						<li><a href="#">旧金山湾区</a></li>
+						<li><a href="#">加利福尼亚州圣马特奥市</a></li>
+						<li><a href="#">马萨诸塞州波士顿</a></li>
+						<li><a href="#">华盛顿特区</a></li>
+						<li><a href="#">加利福尼亚州伯克利</a></li>
+						<li><a href="#">S加利福尼亚州伍德兰希尔斯</a></li>
+					</ul>
+		</div>
+
+		<div>
+			<div class="coffee1">
+				<h2>咖啡馆</h2>
+				<h3>咖啡师</h3>
+			</div>
+
+			<div class="left1">
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">曼哈顿，纽约&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">Palo Alto，CAnbsp;&nbsp;咖啡馆 - Baristas&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">旧金山，加州&nbsp;&nbsp;咖啡馆 - 咖啡师 &nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">洛杉矶，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">马萨诸塞州波士顿&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">Palo Alto，CA &nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">布鲁克林，纽约&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">华盛顿特区&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">伯克利，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">奥克兰，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">咖啡师</a><br />
+				<a href="" class="local">多个地点&nbsp;&nbsp;咖啡馆 - Baristas &nbsp;&nbsp;全职/兼职</a><br />
+			</div>
+
+			<div class="right1">
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+
+			</div>
+		</div>
+
+
+		<div class="two">
+			<div class="coffee1 cof">
+				<h2>咖啡馆领导</h2>
+			</div>
+
+			<div class="left1">
+				<a href="" class="teacher">区域负责人</a><br />
+				<a href="" class="local">马萨诸塞州波士顿&nbsp;&nbsp;咖啡馆 - 咖啡馆领导&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">区域负责人</a><br />
+				<a href="" class="local">华盛顿特区&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">区域负责人</a><br />
+				<a href="" class="local">圣地亚哥，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">区域负责人</a><br />
+				<a href="" class="local">奥兰治县，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职/兼职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">华盛顿特区&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">伍德兰希尔斯，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">旧金山湾区&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">洛杉矶，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">大纽约市区&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">迈阿密，佛罗里达州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">马萨诸塞州波士顿&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">纽波特海滩，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">圣地亚哥，加州&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">加利福尼亚州圣何塞&nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">Studio City，CA &nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+				<a href="" class="teacher">Cafe Leader</a><br />
+				<a href="" class="local">Palo Alto，CA &nbsp;&nbsp;咖啡馆 - 咖啡师&nbsp;&nbsp;全职</a><br />
+			</div>
+			<div class="right1">
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+				<input type="submit" name="commit" value="应用" class="commit" />
+
+			</div>
+		</div>
+
+		<div class="three">
+			<a href="" class="three-title">洗碗机和准备厨师</a><br />
+			<a href="" class="three-text">洗碗机和准备厨师</a><br />
+			<a href="" class="three-text">旧金山，加州&nbsp;&nbsp;咖啡馆 - 洗碗机和准备厨师&nbsp;&nbsp;全职/兼职</a><br />
+		</div>
+		<div class="three-commit">
+			<input type="submit" name="commit" value="应用" class="commit" />
+		</div>
+
+	</div>
+
+	<div class="foot">
+		<div class="foot-text">
+			<a href="">蓝瓶咖啡主页</a>
+		</div>
+
+
+	</div>
+	<hr />
+	<footer class="row">
+		<div class="row">
+			<div class="col-md-2 col-md-offset-2">
+				<ul>
+					<li class="title">BASICS</li>
+					<li>
+						<a href="/our-story">Our Story</a>
+					</li>
+					<li>
+						<a href="/our-coffee">Our Coffee</a>
+					</li>
+					<li>
+						<a href="/bay_area">Visit</a>
+					</li>
+					<li>
+						<a href="/index">NOLA&Cold Brew</a>
+					</li>
+					<li>
+						<a href="/events">Events</a>
+					</li>
+					<li>
+						<a href="/index">Modern Art Desserts</a>
+					</li>
+					<li>
+						<a href="/help">FAQ</a>
+					</li>
+					<li>
+						<a href="/frequency">Frequency Blog</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>
+					<li class="title">SHOP</li>
+					<li>
+						<a href="/index">Coffee</a>
+					</li>
+					<li>
+						<a href="/index">Brewing</a>
+					</li>
+					<li>
+						<a href="/index">Gifts</a>
+					</li>
+					<li>
+						<a href="/shop">Subscriptions</a>
+					</li>
+					<li>
+						<a href="/index">Gift Subscriptions</a>
+					</li>
+					<li>
+						<a href="/index">Special Orders</a>
+					</li>
+					<li>
+						<a href="/index">Redeem Your Gift</a>
+					</li>
+					<li>
+						<a href="/help">Return Policy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul>
+					<li class="title">BREW GUIDES</li>
+					<li>
+						<a href="/index">Aeropress</a>
+					</li>
+					<li>
+						<a href="/index">Chemex</a>
+					</li>
+					<li>
+						<a href="/index">Cold Brew</a>
+					</li>
+					<li>
+						<a href="/index">Pour Over</a>
+					</li>
+					<li>
+						<a href="/index">French Press</a>
+					</li>
+					<li>
+						<a href="/index">New Orleans Iced</a>
+					</li>
+					<li>
+						<a href="/index">Siphon</a>
+					</li>
+					<li>
+						<a href="/preparation-guides">More...</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li class="title">SPECIAL COLLECTIONS</li>
+					<li>
+						<a href="/index">Perfectly Ground Coffee</a>
+					</li>
+					<li class="title">COMPANY</li>
+					<li>
+						<a href="/careers">Careers</a>
+					</li>
+					<li>
+						<a href="/contact">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<hr />
+		<div class="row">
+			<div class="links col-md-3 col-md-offset-2">
+				<p>CONNECT WITH US</p>
+				<a href="javaScript:void(0)"><img src="images/facebook.jpg" /></a>
+				<a href="javaScript:void(0)"><img src="images/instagram.gif" /></a>
+				<a href="javaScript:void(0)"><img src="images/twitter.jpg" /></a>
+			</div>
+			<div class="signUp col-md-6">
+				<img src="images/plan.jpg" />
+				<div class="box">
+					<h5>STAY UPDATED WITH BLUE BOTTLE COFFEE</h5>
+					<p>Sign up for stories, coffee tips, and brewing equipment</p>
+					<input type="text" placeholder="Your email here" />
+					<button class="btn btn-primary">SIGN UP</button>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<!--pages/home/test/test.wxml-->
+<view class='test_view'>
+<view class='test_top'><text>咖啡师考试理论题</text></view>
+<view  wx:for="{{mydata1.test}}">
+ <view class="section section_gap">
+    <view class="section__title">{{item.title}}</view>
+    <radio-group name="radio-group">
+       <view><label><radio color="#01a1dd" value="radio1"/>{{item.answerA}}</label></view>
+       <view><label><radio color="#01a1dd" value="radio2"/>{{item.answerB}}</label></view>
+       <view><label><radio  color="#01a1dd" value="radio2"/>{{item.answerC}}</label></view>
+       <view><label><radio  color="#01a1dd" value="radio2"/>{{item.answerD}}</label></view>
+    </radio-group>
+  </view>
+  </view>
+
+  <button class='sub'>提交</button>
+</view>
+

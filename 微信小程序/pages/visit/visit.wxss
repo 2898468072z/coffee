@@ -1,0 +1,112 @@
+/* pages/visit/visit.wxss */
+
+/* 全局样式 */
+text {
+  font-family:serif;
+}
+.clear {
+  clear: both; 
+}
+/* plane start */
+.plane {
+  width: 744rpx;
+  text-align: center;
+  border-top: 4rpx solid #ccc;
+  border-bottom: 4rpx solid #ccc;
+  margin-top: 8rpx;
+}
+.plane_image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 10rpx;
+}
+.plane_view {
+  margin-top: 10rpx;
+}
+/* plane end */
+
+/* top_view star */
+.top_view {
+  margin-top: 10rpx;
+  position: relative;
+  /* padding-bottom: 10rpx; */
+  /* border-bottom: 4rpx solid #ccc; */
+}
+.top_image {
+  width: 200%;
+  height: 500rpx;
+}
+.top_text {
+ position: absolute;
+ top:180rpx;
+ left: 130rpx;
+ color: white;
+ font-weight: bold;
+}
+/* top_view end */
+
+.mid_all_view {
+  width: 100%;
+  height: 755rpx;
+  border: 4rpx solid #ccc;
+}
+/* aside star */
+
+.aside_view1 {
+  width: 30%;
+  height: 755rpx;
+  font-size: 35rpx;
+  border-right: 4rpx solid #ccc;
+  background-color: rgb(243, 243, 243);
+ 
+}
+.aside_text {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #01a1dd;
+}
+.aside_text1 {
+  padding-top: 5rpx;
+  padding-left: 10rpx;
+}
+.aside_class {
+  background-color: #01a1dd;
+  color: white;
+}
+.aside_class1 {
+  background-color: rgb(243, 243, 243);
+  color: black;
+}
+/* aside end */
+
+/* right_view star */
+.right_view {
+  /* width: 520rpx; */
+  width: 69%;
+  height: 762rpx;
+  position: relative;
+  left: 228rpx;
+  top: -752rpx;
+  background-color: rgb(243, 243, 243);
+}
+.right_view1 {
+  margin-top: 10rpx;
+  border-bottom: 4rpx solid #ccc;
+  padding-bottom: 10rpx;
+}
+.blue {
+  color: #01a1dd;
+}
+.area {
+  font-size: 45rpx;
+  font-weight: bolder;
+  border-bottom: 4rpx solid #ccc;
+}
+
+.show {
+  display: show;
+}
+.hide {
+  display: none;
+}
+/* right_view end */

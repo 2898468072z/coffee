@@ -1,0 +1,12 @@
+/* pages/home/test/test.wxss */
+.test_top {
+  text-align: center;
+}
+.test_view {
+  background-color: rgba(190, 216, 236, 0.808);
+}
+.sub {
+  width: 40%;
+  height: 80rpx;
+  color: #01a1dd;
+}

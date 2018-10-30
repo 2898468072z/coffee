@@ -1,0 +1,33 @@
+<!--pages/recruit/recruit.wxml-->
+
+<!-- logo star -->
+<view class='plane'>
+<image class='plane_image' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540394568252&di=30794a72d6d058b9e1fdb8767e034044&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F69%2F49%2F81%2F58faca8637b66.png'></image>
+<view><text>聆听Blue的声音</text></view>
+<view><text>所有の故事都与你有关</text></view>
+<view class='plane_view'></view>
+</view>
+<view class='clear'></view>
+<!-- logo star -->
+
+<!-- top_view star -->
+<view class='top_view'>
+<image  class='top_image' src='https://bluebottlecoffee.com/assets/bg-img-careers-08785df6315e16733201b9b471a06e4f6697d550edea7d07efd797696cc5d3d5.jpg'></image>
+</view>
+<view class='clear'></view>
+<!-- top_view end -->
+
+<!-- mid_view star -->
+<view class='mid_view'>
+<text>
+Blue 咖啡是一个咖啡馆和在线体验的网络，其简单的目的是为每个要求它的人提供美味的咖啡。它有不可思议的愉快，现在有数百人。我们在三个海岸烤，做好饮料，自己清理，烤饼干，打发发票，在银行换货，并说谢谢。我们为公共汽车上的老人和孕妇提供座位，每天刷牙和用牙线。我们期待着与您会面。
+</text>
+</view>
+<!-- mid_view end -->
+
+<!-- end_view star -->
+<view class='end_view'>
+<text class='end_text' bindtap='to_recruit'>查看招聘详情</text>
+</view>
+<view class='end_end'></view>
+<!-- end_view end -->

@@ -1,0 +1,26 @@
+.img{
+	margin-top: 45px;
+	width: 1350px;
+	height:260px;
+	background-image: url(../images/w-img02.jpg) ;
+	/*background-repeat:repeat-x;*/
+}
+  .word{
+  	width: 765px;
+	height:230px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	line-height: 26px;
+	margin-top: 60px;
+	color:#555555;
+  }
+  .commit{
+	width:200px;
+	height:45px;
+	background-color: #0089BC;
+	margin-top: 60px;
+	outline:none;
+	color:white;
+	font-size: 16px;
+	margin-left: 260px;
+}
